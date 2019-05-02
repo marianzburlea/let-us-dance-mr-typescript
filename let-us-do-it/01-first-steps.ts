@@ -1,4 +1,4 @@
-interface HasAddress {
+export interface HasAddress {
   name: string;
   address:string;
 }
@@ -8,7 +8,7 @@ export interface HasElectronicMail {
   name: string;
 }
 
-interface HasGreenCar {
+export interface HasGreenCar {
   name: string;
   car: string;
 }
