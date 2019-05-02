@@ -18,3 +18,4 @@ exports.sumNumber = async (a, b) => {
 (async () => {
     console.log(await exports.sumNumber(5, 2));
 })();
+//# sourceMappingURL=index.js.map
