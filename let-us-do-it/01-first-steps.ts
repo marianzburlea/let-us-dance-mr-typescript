@@ -1,3 +1,36 @@
+interface HasAddress {
+  name: string;
+  address:string;
+}
+
+interface HasGreenCar {
+  name: string;
+  car: string;
+}
+
+// intersection types
+let personDetails: HasAddress | HasGreenCar = Math.random() > 0.5 ?
+  {
+    name: 'Marian',
+    address: 'London'
+  } :
+  {
+    name: 'Gratiela',
+    car: 'Tesla model S'
+  }
+
+// personDetails.name
+
+// union types
+let someOtherPersonDetails: HasAddress & HasGreenCar = {
+  name: 'Maya',
+  address: 'London',
+  car: 'Mini Tesla'
+}
+// someOtherPersonDetails.name
+// someOtherPersonDetails.address
+// someOtherPersonDetails.car
+
 interface Order {
   name: string;
   price: number;
