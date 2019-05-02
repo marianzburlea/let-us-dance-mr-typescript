@@ -17,5 +17,5 @@ export const sumNumber = async (a: number, b: number) => {
 
 // run me
 (async () => {
-  console.log(sumNumber(5, 2))
+  console.log(await sumNumber(5, 2))
 })()

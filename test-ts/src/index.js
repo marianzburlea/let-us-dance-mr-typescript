@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 /* global Promise */
 /**
  * Delays the execution by n miliseconds
@@ -9,11 +11,11 @@ const timeout = (n) => new Promise(response => setTimeout(response, n));
  * @param a number
  * @param b number
  */
-export const sumNumber = async (a, b) => {
+exports.sumNumber = async (a, b) => {
     await timeout(500);
     return a + b;
 };
 // run me
 (async () => {
-    console.log(sumNumber(5, 2));
+    console.log(await exports.sumNumber(5, 2));
 })();
