@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/marianzburlea/let-us-dance-mr-typescript/issues"
   },
-  "homepage": "https://github.com/marianzburlea/let-us-dance-mr-typescript#readme"
+  "homepage": "https://github.com/marianzburlea/let-us-dance-mr-typescript#readme",
+  "dependencies": {
+    "rimraf": "^2.6.3"
+  }
 }
