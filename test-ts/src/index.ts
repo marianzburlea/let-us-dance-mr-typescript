@@ -1,4 +1,3 @@
-/* global Promise */
 /**
  * Delays the execution by n miliseconds
  * @param n number
