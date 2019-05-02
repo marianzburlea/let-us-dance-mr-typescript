@@ -3,6 +3,11 @@ interface HasAddress {
   address:string;
 }
 
+export interface HasElectronicMail {
+  email: string;
+  name: string;
+}
+
 interface HasGreenCar {
   name: string;
   car: string;
