@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/marianzburlea/let-us-dance-mr-typescript#readme",
   "dependencies": {
-    "rimraf": "^2.6.3"
+    "rimraf": "^2.6.3",
+    "typescript": "^3.4.5"
   }
 }
