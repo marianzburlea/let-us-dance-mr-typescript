@@ -1,3 +1,25 @@
+interface Order {
+  name: string;
+  price: number;
+  quantity: number;
+}
+
+let newOrder: Order = {
+  name: 'Razor blade',
+  price: 22,
+  quantity: 2
+}
+
+let personInfo: { name: string; age?: number};
+personInfo = {
+  name: 'Marian',
+  age: 37
+}
+
+personInfo = {
+  name: 'Gratiela'
+}
+
 let firstName: string = 'Marian'
 name = 'Gratiela'
 name = 4
